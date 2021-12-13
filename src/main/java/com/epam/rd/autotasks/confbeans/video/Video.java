@@ -1,6 +1,10 @@
 package com.epam.rd.autotasks.confbeans.video;
 
+import org.springframework.stereotype.Component;
+
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.StringJoiner;
 
 import static com.google.common.base.Preconditions.checkNotNull;
